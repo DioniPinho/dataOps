@@ -11,12 +11,12 @@ on:
   repository_dispatch:
     types:
       - webhook
+defaults:
+  run:
+    working-directory: fetal_health
 jobs:
   test_train:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: fetal_health
     steps:
       - uses: actions/checkout@v1
         with:
