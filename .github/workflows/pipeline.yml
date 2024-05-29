@@ -34,7 +34,6 @@ jobs:
 
       - name: Test files
         run: |
-          cd fetal
           pytest test_train.py
 
 #  check_python_code_style:
