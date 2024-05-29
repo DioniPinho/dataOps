@@ -1,0 +1,6 @@
+name: dataOps
+dependencies:
+  - python=3.10.12
+  - pip
+  - pip:
+      - -r requirements.txt
